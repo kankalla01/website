@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Website</title>
+    <style>
+
+        body {
+            background-color: #f0f8ff; 
+            font-family: 'Arial', sans-serif; 
+            color: #333; 
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        header {
+            background-color:#007BFF; 
+            color: #ffffff; 
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+            font-family: 'Georgia', serif; 
+        }
+
+    
+        nav {
+            background-color: #333; 
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #ffffff; 
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f0f8ff; 
+        }
+
+        
+        main {
+            padding: 40px;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            color: #4682b4; 
+            font-weight: bold;
+        }
+
+        
+        footer {
+            background-color: #007BFF; 
+            color: #ffffff; 
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        Welcome To Website
+    </header>
+
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    
+    <main>
+        <h1>About Us</h1>
+        
+        <img src="travel.jpg" width="550px">
+
+        <br>
+        <input list="languages" placeholder="LANGUAGE:English">
+            <datalist id="languages">
+                 <option value="Telugu">Telugu</option>
+                 <option value="English">English</option>
+                 <option value="Hindi">Hindi</option>
+                 <option value="Tamil">Tamil</option>
+                 <option value="Spanish">Spanish</option>
+                 <option value="French">French</option>
+                 <option value="Kannada">Kannada</option>
+                 <option value="Urdu">Urdu</option>
+                 <option value="Malayalam">Malayalam</option>
+                 <option value="Turkish">Turkish</option>
+                 <option value="Vietnam">Vietnam</option>
+            </datalist>
+        <p>Our mission is to bring <span class="highlight">Innovation</span> and <span class="highlight">Quality</span> to every project we undertake. Thank you for visiting!</p>
+    
+    </main>
+
+    
+    <footer>
+        @ 2024 Stylish Website.
+    </footer>
+</body>
+</html>
